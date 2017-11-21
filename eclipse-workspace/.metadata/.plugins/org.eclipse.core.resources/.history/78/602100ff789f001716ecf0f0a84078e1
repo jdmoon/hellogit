@@ -1,0 +1,9 @@
+package jdm01;
+import java.util.Scanner;
+
+public class jdm02 {
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.printf("나는 과제가 하기 싫어 ㅇㅋ?");
+
+}

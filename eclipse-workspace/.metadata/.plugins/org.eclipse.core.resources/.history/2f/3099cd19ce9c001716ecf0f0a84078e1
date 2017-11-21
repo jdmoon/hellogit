@@ -1,0 +1,12 @@
+package jdm01;
+
+public class £ê£ä£í {
+
+	public static void main(String[] args) {
+		int n = 2030;
+		System.out.println("Çï·Î" +n);
+		// TODO Auto-generated method stub
+
+	}
+
+}

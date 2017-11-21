@@ -1,0 +1,18 @@
+package jdm01;
+import java.util.Scanner;
+
+public class ｊｄｍ {
+
+	public static void main(String[] args) {
+		System.out.println("원화를 입력하세요 (단위 원)");
+		Scanner scanner = new Scanner(System.in);
+		
+		String dollar = scanner.next();
+		System.out.print("3300원은 $3.0입니다. ");
+		
+		scanner.close();
+		// TODO Auto-generated method stub
+
+	}
+
+}

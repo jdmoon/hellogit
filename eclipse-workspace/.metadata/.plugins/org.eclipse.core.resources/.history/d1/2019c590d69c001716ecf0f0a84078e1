@@ -1,0 +1,35 @@
+package jdm01;
+import java.util.Scanner;
+
+public class ｊｄｍ {
+
+	public static void main(String[] args) {
+		int a, b, number369 = 0;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("1~99 정수를 입력하시오");
+		
+		b = scanner.nextInt();		
+		if ( b >=1 && b<=99) {
+			a= b %10;
+			if ( a==3 || a ==6|| a==9)
+				number369++;
+			a= b/10;
+			if ( a==3 || a ==6|| a==9)
+				number369++;
+			if (369 == 1)
+				System.out.println("박수짝");
+			else if (369 ==2)
+				System.out.println("박수짝짝");
+			else
+				System.out.println("3이 없다");
+		}		
+		else
+			System.out.println( "범위를 벗어남 "  );
+
+		scanner.close();
+		// TODO Auto-generated method stub
+
+	}
+
+}
